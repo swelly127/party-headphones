@@ -1,10 +1,13 @@
-<div id="navigation">
-	<ul>
-		<li><a href="about.html">About</a></li>
-			<ul>
-				<li><a href="faqs.html">FAQs</a></li>
-			</ul>	
-		<li><a href="contact.php">Contact</a></li>
-		<li><a href="order.php">Order</a></li>
-	</ul>
-</div>	
+div id="navigation">
+	<div id="logo">
+		<img src="logo.png" alt="Audiarchy Logo">
+	</div>
+	
+	<div id="navbar">
+		<ul>
+			<li><a href="technology.html">Technology</a></li>	
+			<li><a href="">Product</a></li>
+			<li><a href="order.php">Order Now</a></li>
+		</ul>
+	</div>
+</div>		
