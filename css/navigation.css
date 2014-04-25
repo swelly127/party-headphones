@@ -1,0 +1,8 @@
+#navigation ul {
+	list-style-type: none;
+}
+
+#navigation li {
+	display: inline;
+	padding: 20px;
+}
