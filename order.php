@@ -28,17 +28,20 @@
 			<div id="orderOptions">
 				<div id="eachOption">
 					<form name="10pack" method="post" action="">
-						<h3><input type="checkbox" name="choose10">Audiarchy 10-Pack</h3>
+						<h3><input type="radio" name="choose10">Audiarchy 10-Pack</h3>
 						<img src="placeholder1.jpg" alt="10 pack"><br>
-						<input type="submit" name="seeMoreFor10" value="See More">
+						<button type="button" id="button10">See More +</button>
+						<span id="10packInfo"></span>
 					</form>
 				</div>
 
 				<div id="eachOption">
 					<form name="20pack" method="post" action="">
-						<h3><input type="checkbox" name="choose20">Audiarchy 20-pack</h3>
+						<h3><input type="radio" name="choose20">Audiarchy 20-pack</h3>
 						<img src="placeholder1.jpg" alt="20 pack"><br>
-						<input type="submit" name="seeMoreFor20" value="See More">
+						<button type="button" id="button20">See More +</button>
+
+						<span id="20packInfo"></span>
 					</form>
 				</div>
 			</div>
@@ -61,7 +64,7 @@
 				<div id="eachPlan">
 					<form name="basicPlan" method="post" action="">
 						<div id="title">
-							<h3><input type="checkbox" name="chooseBasic">Basic</h3>
+							<h3><input type="radio" name="chooseBasic">Basic</h3>
 						</div>
 						<div id="price">
 							<h2>$0</h2>
@@ -81,7 +84,7 @@
 				<div id="eachPlan">
 					<form name="premiumPlan" method="post" action="">
 						<div id="title">
-							<h3><input type="checkbox" name="choosePremium">Premium</h3>
+							<h3><input type="radio" name="choosePremium">Premium</h3>
 						</div>
 						<div id="price">
 							<h2>$35</h2>
@@ -103,7 +106,7 @@
 				<div id="eachPlan">
 					<form name="freedomPlan" method="post" action="">
 						<div id="title">
-							<h3><input type="checkbox" name="chooseFreedom">Freedom</h3>
+							<h3><input type="radio" name="chooseFreedom">Freedom</h3>
 						</div>
 						<div id="price">
 							<h2>$55</h2>
@@ -124,7 +127,7 @@
 				<div id="eachPlan">
 					<form name="pureBlissPlan" method="post" action="">
 						<div id="title">
-							<h3><input type="checkbox" name="choosePureBliss">Pure Bliss</h3>
+							<h3><input type="radio" name="choosePureBliss">Pure Bliss</h3>
 						</div>
 						<div id="price">
 							<h2>$75</h2>
