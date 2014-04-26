@@ -1,6 +1,6 @@
 <div id="navigation">
 	<div id="logo">
-		<img src="logo.png" alt="Audiarchy Logo">
+		<img src="img/logo.png" alt="Audiarchy Logo">
 	</div>
 
 	<div id="navbar">
