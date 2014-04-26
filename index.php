@@ -20,12 +20,12 @@
 		<div id="div2">
 			<h3>Trusted By:</h3>
 				<ul>
-					<li><div id="viacomLogo"><img src="Viacom.pdf" alt="Viacom"></div></li>
-					<li><div id="nestleLogo"></div></li>
-					<li><div id="century21Logo"></div></li>
-					<li><div id="dtsLogo"></div></li>
-					<li><div id="cornellLogo"></div></li>
-					<li><div id="upennLogo"></div></li>
+					<li>Viacom</li>
+					<li>Nestle</li>
+					<li>Century 21</li>
+					<li>DTS</li>
+					<li>Cornell</li>
+					<li>UPENN</div></li>
 				</ul>
 		</div>
 
