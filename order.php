@@ -29,7 +29,7 @@
 				<div id="eachOption">
 					<form name="10pack" method="post" action="">
 						<h3><input type="checkbox" name="choose10">Audiarchy 10-Pack</h3>
-						<img src="placeholder1.jpg" alt="10 pack"></br>
+						<img src="placeholder1.jpg" alt="10 pack"><br>
 						<input type="submit" name="seeMoreFor10" value="See More">
 					</form>
 				</div>
@@ -37,11 +37,12 @@
 				<div id="eachOption">
 					<form name="20pack" method="post" action="">
 						<h3><input type="checkbox" name="choose20">Audiarchy 20-pack</h3>
-						<img src="placeholder1.jpg" alt="20 pack"></br>
+						<img src="placeholder1.jpg" alt="20 pack"><br>
 						<input type="submit" name="seeMoreFor20" value="See More">
 					</form>
 				</div>
-			</div>	
+			</div>
+		</div>		
 
 		<div id="step2Whole">
 			<div id="step2">
@@ -95,7 +96,7 @@
 						</div>
 					</form>
 						<div id="linkToLegal">
-							<a href="legal.html/#premiumLegal" target="_blank">Premium details</a>
+							<a href="legal.php/#premiumLegal" target="_blank">Premium details</a>
 						</div>
 				</div>	
 
@@ -117,10 +118,9 @@
 						</div>
 					</form>
 						<div id="linkToLegal">
-							<a href="legal.html/#freedomLegal" target="_blank">Freedom details</a>
+							<a href="legal.php/#freedomLegal" target="_blank">Freedom details</a>
 						</div>
 				</div>	
-			</div>
 				<div id="eachPlan">
 					<form name="pureBlissPlan" method="post" action="">
 						<div id="title">
@@ -140,10 +140,10 @@
 						</div>
 					</form>
 						<div id="linkToLegal">
-							<a href="legal.html/#pureBlissLegal" target="_blank">Pure Bliss details</a>
+							<a href="legal.php/#pureBlissLegal" target="_blank">Pure Bliss details</a>
 						</div>
 				</div>
-
+				</div>
 
 		<div id="step3Whole">
 			<div id="step3">
@@ -160,13 +160,13 @@
 
 			<div id="customerInfo">
 				<form name="customerInfo" method="post" action="">
-					<input type="text" name="firstName" value="First Name"></br>
-					<input type="text" name="lastName" value="Last Name"></br>
-					<input type="text" name="title" value="Title"></br>
-					<input type="text" name="company" value="Company"></br>
+					<input type="text" name="firstName" value="First Name"><br><br>
+					<input type="text" name="lastName" value="Last Name"><br><br>
+					<input type="text" name="title" value="Title"><br><br>
+					<input type="text" name="company" value="Company"><br><br>
 					<input type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
-				 	title="Phone Number (Format: +99(99)9999-9999)" value="phone"></br>
-					<input type="email" name="email" value="Email"></br>
+				 	title="Phone Number (Format: +99(99)9999-9999)" value="phone"><br><br>
+					<input type="email" name="email" value="Email"><br><br>
 					<input type="submit" name="submit" value="Submit">
 				</form>
 			</div>
@@ -175,4 +175,6 @@
 
 	</body>
 </html>		
+			
+	
 			
