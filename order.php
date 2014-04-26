@@ -165,7 +165,7 @@
 					<input type="text" name="title" value="Title"><br><br>
 					<input type="text" name="company" value="Company"><br><br>
 					<input type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
-				 	title="Phone Number (Format: +99(99)9999-9999)" value="phone"><br><br>
+				 	title="Phone Number (Format: +99(99)9999-9999)" value="Phone"><br><br>
 					<input type="email" name="email" value="Email"><br><br>
 					<input type="submit" name="submit" value="Submit">
 				</form>
