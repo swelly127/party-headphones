@@ -9,7 +9,7 @@
 	<body>
 
 	<?php
-		require 'navigation.html'
+		require 'navigation.php'
 	?>
 
 		<div id="legalText">
