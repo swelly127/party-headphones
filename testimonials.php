@@ -2,8 +2,8 @@
 	<html>
 	<head>
 		<meta charset="utf-8">
-		<title>Legal</title>
-		<link rel="stylesheet" type="text/css" href="faq.css">
+		<title>FAQ</title>
+		<link rel="stylesheet" type="text/css" href="css/static.css">
 	</head>
 
 	<body>
@@ -12,7 +12,7 @@
 	require 'navigation.html'
 	?>
 
-		<div id="faqText">
+		<div id="testimonialText">
 			<p><Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

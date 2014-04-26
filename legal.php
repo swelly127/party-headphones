@@ -3,18 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Legal</title>
-		<link rel="stylesheet" type="text/css" href="">
+		<link rel="stylesheet" type="text/css" href="css/static.css">
 	</head>
-	
+
 	<body>
-	
+
 	<?php
 		require 'navigation.html'
 	?>
 
 		<div id="legalText">
 			<p>
-			lorem ipsum dummy text of the printing and typesetting industry. 
+			lorem ipsum dummy text of the printing and typesetting industry.
 			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...
 			</p>
 		</div>
@@ -32,4 +32,4 @@
 		</div>
 
 	</body>
-</html>	
+</html>

@@ -2,11 +2,11 @@
 
 	<div id="navbar">
 		<ul>
-			<li><a href="legal.html">Legal</a></li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="testimonials.html">Testimonials</a></li>
-			<li><a href="press.html">Press</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="legal.php">Legal</a></li>
+			<li><a href="faq.php">FAQ</a></li>
+			<li><a href="testimonials.php">Testimonials</a></li>
+			<li><a href="press.php">Press</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</div>
 </div>
