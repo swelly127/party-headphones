@@ -1,7 +1,7 @@
 <div id="navigation">
 	<div id="logo">
 		<a href="index.php"><img class="logo" src="img/logo.png" alt="Audiarchy Logo" 
-		width="20%" height="20%"></a>
+		width="50%" height="50%"></a>
 	</div>	
 			
 	<div id="navbar">
