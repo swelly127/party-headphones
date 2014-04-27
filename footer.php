@@ -1,6 +1,6 @@
 <div id="footer">
 
-	<div id="navbar">
+	<div id="footerNavbar">
 		<ul>
 			<li><a href="legal.php">Legal</a></li>
 			<li><a href="faq.php">FAQ</a></li>
