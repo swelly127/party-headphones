@@ -1,13 +1,14 @@
 <div id="navigation">
 	<div id="logo">
-		<img src="img/logo.png" alt="Audiarchy Logo">
-	</div>
-
+		<a href="index.php"><img class="logo" src="img/logo.png" alt="Audiarchy Logo" 
+		width="20%" height="20%"></a>
+	</div>	
+			
 	<div id="navbar">
-		<ul>
-			<li><a href="technology.html">Technology</a></li>
+		<ul>	
+			<li><a href="technology.html">Technology</a></li>	
 			<li><a href="">Product</a></li>
 			<li><a href="order.php">Order Now</a></li>
 		</ul>
-	</div>
+	</div>	
 </div>
