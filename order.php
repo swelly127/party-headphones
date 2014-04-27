@@ -169,20 +169,24 @@
 
 			<div id="customerInfo">
 				<form name="customerInfo" method="post" action="">
-					<input type="text" name="firstName" value="First Name"><br><br>
-					<input type="text" name="lastName" value="Last Name"><br><br>
-					<input type="text" name="title" value="Title"><br><br>
-					<input type="text" name="company" value="Company"><br><br>
+					<input type="text" name="firstName" placeholder="First Name"><br><br>
+					<input type="text" name="lastName" placeholder="Last Name"><br><br>
+					<input type="text" name="title" placeholder="Title"><br><br>
+					<input type="text" name="company" placeholder="Company"><br><br>
 					<input type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
-				 	title="Phone Number (Format: (999)999-9999)" value="Phone"><br><br>
-					<input type="email" name="email" value="Email"><br><br>
-					<input type="submit" name="submit" value="Submit">
+				 	title="Phone Number (Format: (999)999-9999)" placeholder="Phone"><br><br>
+					<input type="email" name="email" placeholder="Email"><br><br>
+					<input class="submit" type="submit" name="submit" value="Submit">
 				</form>
 			</div>
 		</div>
 
+<div id="foot">
+<?php
+	require 'footer.php'
+?>
+</div>
 
 	</body>
 </html>		
 			
-	
