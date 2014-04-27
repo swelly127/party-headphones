@@ -15,9 +15,9 @@
 		<div id="step1Whole">
 			<div id="step1">
 				<ul>
-					<li><strong>step 1</strong></li>  <!--step 1 will be highlighted/should stand out-->
-					<li>step 2</li>
-					<li>step 3</li>
+					<li><strong>Step 1</strong></li> 
+					<li>Step 2</li>
+					<li>Step 3</li>
 				</ul>
 			</div>	
 
@@ -28,18 +28,22 @@
 			<div id="orderOptions">
 				<div id="eachOption">
 					<form name="10pack" method="post" action="">
-						<h3><input type="radio" name="choose">Audiarchy 10-Pack</h3>
-						<img src="placeholder1.jpg" alt="10 pack"><br>
-						<button type="button" id="button10">See More +</button>
+						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 10-Pack</h3>
+						<img class="img" src="img/headphones.jpg" alt="10 pack" height="100px" width="100px"><br>
+						<div id="button">
+							<button class="button" type="button" id="button10">See More +</button>
+						</div>	
 						<span id="10packInfo"></span>
 					</form>
 				</div>
 
 				<div id="eachOption">
 					<form name="20pack" method="post" action="">
-						<h3><input type="radio" name="choose">Audiarchy 20-pack</h3>
-						<img src="placeholder1.jpg" alt="20 pack"><br>
-						<button type="button" id="button20">See More +</button>
+						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 20-pack</h3>
+						<img class="img" src="img/headphones.jpg" alt="20 pack" height="100px" width="100px"><br>
+						<div id="button">
+							<button class="button" type="button" id="button20">See More +</button>
+						</div>	
 
 						<span id="20packInfo"></span>
 					</form>
@@ -50,9 +54,9 @@
 		<div id="step2Whole">
 			<div id="step2">
 				<ul>
-					<li>step 1</li>  
-					<li><strong>step 2</strong></li> <!--step 2 will be highlighted/should stand out-->
-					<li>step 3</li>
+					<li>Step 1</li>  
+					<li><strong>Step 2</strong></li>
+					<li>Step 3</li>
 				</ul>
 			</div>
 
@@ -67,7 +71,7 @@
 							<h3><input type="radio" name="choosePlan">Basic</h3>
 						</div>
 						<div id="price">
-							<h2>$0</h2>
+							<h2 class="dollars">$0</h2>
 							<p>Per month</p>
 						</div>
 						<div id="details">
@@ -87,7 +91,7 @@
 							<h3><input type="radio" name="choosePlan">Premium</h3>
 						</div>
 						<div id="price">
-							<h2>$35</h2>
+							<h2 class="dollars">$35</h2>
 							<p>Per month</p>
 						</div>
 						<div id="details">
@@ -109,12 +113,12 @@
 							<h3><input type="radio" name="choosePlan">Freedom</h3>
 						</div>
 						<div id="price">
-							<h2>$55</h2>
+							<h2 class="dollars">$55</h2>
 							<p>Per month</p>
 						</div>
 						<div id="details">
 							<ul>
-								<li>Full warranty and next-day replacement on all components</li>
+								<li>Full warranty and next-day replacement policy on all components</li>
 								<li>New earpads every month</li>
 								<li>25% discount on accessories and add-ons</li>
 							</ul>
@@ -124,13 +128,14 @@
 							<a href="legal.php/#freedomLegal" target="_blank">Freedom details</a>
 						</div>
 				</div>	
+				
 				<div id="eachPlan">
 					<form name="pureBlissPlan" method="post" action="">
 						<div id="title">
 							<h3><input type="radio" name="choosePlan">Pure Bliss</h3>
 						</div>
 						<div id="price">
-							<h2>$75</h2>
+							<h2 class="dollars">$75</h2>
 							<p>Per month</p>
 						</div>
 						<div id="details">
@@ -147,13 +152,14 @@
 						</div>
 				</div>
 				</div>
+			</div>	
 
 		<div id="step3Whole">
 			<div id="step3">
 				<ul>
-					<li>step 1</li>  
-					<li>step 2</li> 
-					<li><strong>Finish</strong></li> <!--step 3 will be highlighted/should stand out-->
+					<li>Step 1</li>  
+					<li>Step 2</li> 
+					<li><strong>Finish</strong></li>
 				</ul>
 			</div>	
 
@@ -168,7 +174,7 @@
 					<input type="text" name="title" value="Title"><br><br>
 					<input type="text" name="company" value="Company"><br><br>
 					<input type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
-				 	title="Phone Number (Format: +99(99)9999-9999)" value="Phone"><br><br>
+				 	title="Phone Number (Format: (999)999-9999)" value="Phone"><br><br>
 					<input type="email" name="email" value="Email"><br><br>
 					<input type="submit" name="submit" value="Submit">
 				</form>
@@ -180,4 +186,3 @@
 </html>		
 			
 	
-			
