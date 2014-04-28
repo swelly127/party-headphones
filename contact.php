@@ -16,11 +16,16 @@
 	<body>
 
 	<?php
-		require 'navigation.html'
+		require 'navigation.php'
 	?>
 
 	<!-- contact form here -->
 
+	<div id="foot">
+		<?php
+			require 'footer.php'
+		?>
+	</div>
 
 	</body>
 </html>

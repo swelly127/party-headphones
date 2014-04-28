@@ -4,8 +4,7 @@
   $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
     // get current faq array and store in variable $FAQ
-  }
-  ?>
+?>
 
 
 <!DOCTYPE html>

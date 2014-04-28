@@ -4,11 +4,10 @@
   $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
     // get current testimonals array and store in variable $testimonals
-  }
-  ?>
+ ?>
 
 <!DOCTYPE html>
-	<html>
+<html>
 	<head>
 		<meta charset="utf-8">
 		<title>FAQ</title>
@@ -18,16 +17,17 @@
 	<body>
 
 	<?php
-	require 'navigation.html'
+	require 'navigation.php'
 	?>
 
 		<div id="testimonialText">
-			<p><Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.>
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</div>
 
@@ -40,3 +40,5 @@
 
 	</body>
 </html>
+
+

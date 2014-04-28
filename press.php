@@ -4,7 +4,6 @@
   $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
     // get current press array and store in variable $press
-  }
   ?>
 
 
@@ -20,7 +19,7 @@
 	<body>
 
 	<?php
-	require 'navigation.html'
+	require 'navigation.php'
 	?>
 
 		<div id="pressText">
