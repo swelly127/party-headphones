@@ -19,7 +19,14 @@
 		require 'navigation.php'
 	?>
 
-	<!-- contact form here -->
+		<div class="staticText" id="contactText">
+			<!-- for each variable in FAQ -->
+			<p>
+				Contact us at Wireless Audio Solutions, LLC
+				95 Brown Road Suite 163
+				Ithaca, NY 14850
+			</p>
+		</div>
 
 		<?php
 			require 'footer.php'

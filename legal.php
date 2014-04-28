@@ -12,23 +12,11 @@
 		require 'navigation.php'
 	?>
 
-		<div id="legalText">
+		<div class="staticText" id="legalText">
 			<p>
 			lorem ipsum dummy text of the printing and typesetting industry.
 			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...
 			</p>
-		</div>
-
-		<div id="basicLegal">
-		</div>
-
-		<div id="premiumLegal">
-		</div>
-
-		<div id="freedomLegal">
-		</div>
-
-		<div id="pureBlissLegal">
 		</div>
 
 		<?php
