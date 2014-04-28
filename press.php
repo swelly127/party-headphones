@@ -26,7 +26,7 @@
 			<h1> Press </h1>
 			<ul class="list-posts">
 
-			<li class="post-1013 post type-post status-publish format-standard hentry category-news home-features-item first instock">
+			<li class="post">
 			<div>
 			<div class="post-title">
 			<a class="post-title heading-title" href="http://partyheadphones.com/australian-electronics-company-partners-with-ithaca-startup"><h2 class="heading-title">Australian Electronics Company Partners with Ithaca Startup to Bring Silent Disco Headphones to the United States</h2></a>
@@ -39,7 +39,7 @@
 			</div>
 			</li>
 
-			<li class="post-988 post type-post status-publish format-standard hentry category-news home-features-item first instock">
+			<li class="post">
 			<div>
 			<div class="post-title">
 			<a class="post-title heading-title" href="http://partyheadphones.com/cornell-party-headphones-keeps-it-quiet"><h2 class="heading-title">Cornell’s Party Headphones Keeps It Quiet</h2></a>
@@ -55,7 +55,7 @@
 			</div>
 			</li>
 
-			<li class="post-963 post type-post status-publish format-standard hentry category-news home-features-item first instock">
+			<li class="post">
 			<div>
 			<div class="post-title">
 			<a class="post-title heading-title" href="http://partyheadphones.com/4-reasons-silent-disco-continues-to-grow"><h2 class="heading-title">4 Reasons Silent Disco Continues to Grow</h2></a>

@@ -15,7 +15,7 @@
 		<div class="staticText" id="legalText">
 			<h1> Legal </h1>
 			<h2 class="heading-title page-title">Terms &amp; Conditions</h2>
-			<article id="post-1673" class="post-1673 page type-page status-publish hentry instock">
+			<article id="legal-article">
 				<div class="entry-content-post">
 				<p><b>1. Acceptance of Terms</b></p>
 				<p>Wireless Audio Solutions, LLC, a New York limited liability corporation (referred to as “Company,” “us” or “we”), provides the Party Headphones website (http://partyheadphones.com) (all subdomains to the website collectively referred to as the “Site”), as well as products and services related to audio equipment, headphones and other hardware and related leasing and sales of same (collectively referred to as “Offerings”), subject to your compliance with the following Terms and Conditions of Use (“Terms”), as well as any other written agreement(s) between us and you.</p>
