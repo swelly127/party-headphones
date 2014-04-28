@@ -60,11 +60,11 @@
 		<div id="div4">
 			<h1>Simple to setup, easy to use</h1>
 			<div id="steps">
-				<div id="eachStep">
+				<div class="eachStep">
 					<h2>Step 1: Connect audio to transmitter</h2>
 				</div>
 
-				<div id="eachStep">
+				<div class="eachStep">
 					<h2>Step 2: Power on the headphones</h2>
 				</div>
 			</div>

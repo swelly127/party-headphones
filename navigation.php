@@ -22,8 +22,8 @@
 
 	<div id="navbar">
 		<ul>
-			<li><a href="#div3">Technology</a></li>
-			<li><a href="#div4">Product</a></li>
+			<li><a href="index.php#div3">Technology</a></li>
+			<li><a href="index.php#div4">Product</a></li>
 			<li><a href="order.php">Order Now</a></li>
 		</ul>
 		<!--Add a very simple login form that appears on scrollover-->

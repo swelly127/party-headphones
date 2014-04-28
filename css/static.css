@@ -3,12 +3,7 @@ body {
 }
 
 .staticText {
-	height: 600px;
-	text-align: center;
+	min-height: 600px;
 	clear: both;
-}
-
-
-.staticText p {
 	padding: 50px;
 }
