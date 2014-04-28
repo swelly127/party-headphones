@@ -1,3 +1,12 @@
+<?php
+  require_once 'config.php';
+  include 'session.php';
+  $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+  // handle login form and redirect to sugarCRM is successful, otherwise set $error to an error msg
+
+  ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -15,16 +24,16 @@
 		<div id="step1Whole">
 			<div id="step1">
 				<ul>
-					<li><strong>Step 1</strong></li> 
+					<li><strong>Step 1</strong></li>
 					<li>Step 2</li>
 					<li>Step 3</li>
 				</ul>
-			</div>	
+			</div>
 
 			<div id="selectSize">
 				<h2>Select your package size</h2>
 			</div>
-			
+
 			<div id="orderOptions">
 				<div id="eachOption">
 					<form name="10pack" method="post" action="">
@@ -32,7 +41,7 @@
 						<img class="img" src="img/headphones.jpg" alt="10 pack" height="100px" width="100px"><br>
 						<div id="button">
 							<button class="button" type="button" id="button10">See More +</button>
-						</div>	
+						</div>
 						<span id="10packInfo"></span>
 					</form>
 				</div>
@@ -43,18 +52,18 @@
 						<img class="img" src="img/headphones.jpg" alt="20 pack" height="100px" width="100px"><br>
 						<div id="button">
 							<button class="button" type="button" id="button20">See More +</button>
-						</div>	
+						</div>
 
 						<span id="20packInfo"></span>
 					</form>
 				</div>
 			</div>
-		</div>		
+		</div>
 
 		<div id="step2Whole">
 			<div id="step2">
 				<ul>
-					<li>Step 1</li>  
+					<li>Step 1</li>
 					<li><strong>Step 2</strong></li>
 					<li>Step 3</li>
 				</ul>
@@ -105,7 +114,7 @@
 						<div id="linkToLegal">
 							<a href="legal.php/#premiumLegal" target="_blank">Premium details</a>
 						</div>
-				</div>	
+				</div>
 
 				<div id="eachPlan">
 					<form name="freedomPlan" method="post" action="">
@@ -127,8 +136,8 @@
 						<div id="linkToLegal">
 							<a href="legal.php/#freedomLegal" target="_blank">Freedom details</a>
 						</div>
-				</div>	
-				
+				</div>
+
 				<div id="eachPlan">
 					<form name="pureBlissPlan" method="post" action="">
 						<div id="title">
@@ -152,16 +161,16 @@
 						</div>
 				</div>
 				</div>
-			</div>	
+			</div>
 
 		<div id="step3Whole">
 			<div id="step3">
 				<ul>
-					<li>Step 1</li>  
-					<li>Step 2</li> 
+					<li>Step 1</li>
+					<li>Step 2</li>
 					<li><strong>Finish</strong></li>
 				</ul>
-			</div>	
+			</div>
 
 			<div id="finish">
 				<h2>Now, let's get in touch!</h2>
@@ -188,5 +197,5 @@
 </div>
 
 	</body>
-</html>		
-			
+</html>
+

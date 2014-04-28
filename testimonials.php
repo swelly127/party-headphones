@@ -1,3 +1,12 @@
+<?php
+  require_once 'config.php';
+  include 'session.php';
+  $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+    // get current testimonals array and store in variable $testimonals
+  }
+  ?>
+
 <!DOCTYPE html>
 	<html>
 	<head>
@@ -23,7 +32,11 @@
 		</div>
 
 
-
+		<div id="foot">
+		<?php
+			require 'footer.php'
+		?>
+		</div>
 
 	</body>
 </html>

@@ -31,5 +31,10 @@
 		<div id="pureBlissLegal">
 		</div>
 
+		<div id="foot">
+		<?php
+			require 'footer.php'
+		?>
+		</div>
 	</body>
 </html>

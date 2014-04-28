@@ -1,3 +1,13 @@
+<?php
+  require_once 'config.php';
+  include 'session.php';
+  $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+    // get current faq array and store in variable $FAQ
+  }
+  ?>
+
+
 <!DOCTYPE html>
 	<html>
 	<head>
@@ -13,6 +23,7 @@
 	?>
 
 		<div id="faqText">
+			<!-- for each variable in FAQ -->
 			<p><Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -21,7 +32,11 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.>
 			</p>
 		</div>
-
+	<div id="foot">
+	<?php
+		require 'footer.php'
+	?>
+	</div>
 
 
 
