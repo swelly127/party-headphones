@@ -21,11 +21,9 @@
 
 	<!-- contact form here -->
 
-	<div id="foot">
 		<?php
 			require 'footer.php'
 		?>
-	</div>
 
 	</body>
 </html>

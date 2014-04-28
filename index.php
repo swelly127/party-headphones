@@ -88,12 +88,9 @@
 				<strong>607.216.1082</strong></p>
 			</div>
 		</div>
-
-		<div id="footer">
-			<?php
-				require 'footer.php'
-			?>
-		</div>
+		<?php
+			require 'footer.php'
+		?>
 
 
 

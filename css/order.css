@@ -1,26 +1,7 @@
 body {
-	font-family: "comic sans ms"; 
+	font-family: "comic sans ms";
 }
 
-#navigation {
-	font-size: 150%;
-}
-
-#logo {
-	float: left;
-	margin-bottom: 2%;
-}
-
-#navigation ul {
-	list-style-type: none;
-	text-align: right;
-}
-
-#navigation li {
-	display: inline;
-	padding-right: 20px;
-	vertical-align: middle;
-}
 
 #step1Whole {
 	border-top: 1px solid black;
@@ -43,9 +24,10 @@ body {
 	padding-right: 20px;
 }
 
-#selectSize {
+.instruction {
 	text-align: center;
-	font-size: 110%;		
+	font-size: 110%;
+	padding-bottom: 20px;
 }
 
 #orderOptions {
@@ -61,8 +43,8 @@ body {
 	width: 25%;
 	border: 1px solid black;
 	float: left;
-	margin-left: 1%; 
-	margin-right: 1%;	
+	margin-left: 1%;
+	margin-right: 1%;
 	border-radius: 5px;
 }
 
@@ -154,11 +136,6 @@ body {
 	padding-right: 20px;
 }
 
-#selectPlan {
-	text-align: center;
-	font-size: 110%;
-}
-
 #planOptions {
 	margin-top: 40px;
 	margin-right: 5%;
@@ -168,14 +145,15 @@ body {
 	background-color: #fafad2;
 }
 
-#eachPlan {
+.eachPlan {
 	width: 20%;
-	height: 450px;
+	height: 500px;
 	float: left;
 	border: 1px solid black;
 	text-align: center;
 	margin-left: 2%;
 	margin-right: 2%;
+	margin-bottom: 20px;
 	border-radius: 5px;
 }
 
@@ -227,12 +205,6 @@ body {
 #step3 li {
 	display: inline;
 	padding-right: 20px;
-}
-
-#finish {
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 110%;
 }
 
 #customerInfo {
@@ -301,14 +273,5 @@ body {
 .submit:active {
 	position:relative;
 	top:1px;
-}
-
-#footerNavbar ul {
-	list-style-type: none;
-}
-
-#footerNavbar li {
-	display: inline;
-	padding-right: 20px;
 }
 

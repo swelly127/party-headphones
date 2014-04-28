@@ -31,11 +31,9 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.>
 			</p>
 		</div>
-	<div id="foot">
 	<?php
 		require 'footer.php'
 	?>
-	</div>
 
 
 

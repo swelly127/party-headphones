@@ -30,7 +30,7 @@
 				</ul>
 			</div>
 
-			<div id="selectSize">
+			<div class="instruction">
 				<h2>Select your package size</h2>
 			</div>
 
@@ -69,12 +69,12 @@
 				</ul>
 			</div>
 
-			<div id="selectPlan">
+			<div class="instruction">
 				<h2>Select your maintenance plan</h2>
 			</div>
 
 			<div id="planOptions">
-				<div id="eachPlan">
+				<div class="eachPlan">
 					<form name="basicPlan" method="post" action="">
 						<div id="title">
 							<h3><input type="radio" name="choosePlan">Basic</h3>
@@ -94,7 +94,7 @@
 						</div>
 				</div>
 
-				<div id="eachPlan">
+				<div class="eachPlan">
 					<form name="premiumPlan" method="post" action="">
 						<div id="title">
 							<h3><input type="radio" name="choosePlan">Premium</h3>
@@ -116,7 +116,7 @@
 						</div>
 				</div>
 
-				<div id="eachPlan">
+				<div class="eachPlan">
 					<form name="freedomPlan" method="post" action="">
 						<div id="title">
 							<h3><input type="radio" name="choosePlan">Freedom</h3>
@@ -138,7 +138,7 @@
 						</div>
 				</div>
 
-				<div id="eachPlan">
+				<div class="eachPlan">
 					<form name="pureBlissPlan" method="post" action="">
 						<div id="title">
 							<h3><input type="radio" name="choosePlan">Pure Bliss</h3>
@@ -172,7 +172,7 @@
 				</ul>
 			</div>
 
-			<div id="finish">
+			<div class="instruction">
 				<h2>Now, let's get in touch!</h2>
 			</div>
 
@@ -190,11 +190,9 @@
 			</div>
 		</div>
 
-<div id="foot">
 <?php
 	require 'footer.php'
 ?>
-</div>
 
 	</body>
 </html>
