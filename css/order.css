@@ -9,9 +9,9 @@ body {
 }
 
 #step1 {
-	margin-top: 5%;
 	text-align: center;
 	font-size: 150%;
+	padding-top: 30px;
 }
 
 #step1 ul {
@@ -45,7 +45,8 @@ body {
 	margin-left: 1%;
 	margin-right: 1%;
 	border-radius: 5px;
-	background-color: #318ce7;
+	background-color: #062a78; /*catalina blue*/
+	color: #f5f5f5; /*white smoke*/
 }
 
 .eachOption img {
@@ -121,6 +122,18 @@ body {
 	background-color: ;
 }
 
+#step2Whole a:link {
+	color: #a1caf1; /*baby blue eyes*/
+}
+
+#step2Whole a:hover {
+	color: #318ce7; /*bleu de france*/
+}
+
+#step2Whole a:visited {
+	color: #f5f5f5; /*white smoke*/
+}
+
 #step2 {
 	margin-top: 5%;
 	text-align: center;
@@ -142,7 +155,6 @@ body {
 	margin-left: 7%;
 	width: 90%;
 	margin-bottom: 40%;
-	background-color: ;
 }
 
 .eachPlan {
@@ -155,7 +167,8 @@ body {
 	margin-right: 2%;
 	margin-bottom: 20px;
 	border-radius: 5px;
-	background-color: #318ce7;
+	background-color: #062a78; /*catalina blue*/
+	color: #f5f5f5; /*white smoke*/
 }
 
 .title {
@@ -189,7 +202,7 @@ body {
 	border-bottom: 1px solid black;
 	clear: both;
 	margin-top: 10%;
-	background-color: #f5f5f5;
+	background-color: #f5f5f5; /*white smoke*/
 }
 
 #step3 {
@@ -213,7 +226,7 @@ body {
 	text-align: center;
 	padding: 20px;
 	margin: auto;
-	background-color: #318ce7;
+	background-color: #062a78; /*catalina blue*/
 	margin-bottom: 20px;
 	border-radius: 5px;
 }
@@ -268,7 +281,7 @@ body {
 }
 
 .submit:hover {
-	background-color: #4a646c;
+	background-color: #318ce7; /*bleu de france*/
 }
 
 .submit:active {
