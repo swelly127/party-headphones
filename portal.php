@@ -22,20 +22,13 @@
   if (!isset($_SESSION['username'])) {
     header("Location: index.php");
   } else {
-  	// get current FAQ array from DB (all) store in $FAQ variable
   	// get current press array from DB (all) store in $press variable
   	// get current testimonial array from DB (all) store in $testimonial variable
-  	if (isset($POST('add_faq'))) {
-  		// add a FAQ question and answer
-  	}
  	if (isset($POST('add_test'))) {
   		// add a testimonial
   	}
 	if (isset($POST('add_press'))) {
   		// add a press link
-  	}
-  	if (isset($POST('del_faq'))) {
-  		// delete a FAQ question and answer
   	}
  	if (isset($POST('del_test'))) {
   		// delete a testimonial
@@ -49,3 +42,32 @@
   	}
   }
   ?>
+
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Testimonials</title>
+    <link rel="stylesheet" type="text/css" href="css/static.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+  </head>
+
+  <body>
+
+  <?php
+  require 'navigation.php'
+  ?>
+
+    <div id="testimonialEdit">
+
+    </div>
+    <div id="pressEdit">
+
+    </div>
+
+
+    <?php
+      require 'footer.php'
+    ?>
+
+  </body>
+</html>
