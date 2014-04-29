@@ -1,6 +1,6 @@
 body {
 	font-family: "comic sans ms";
-	background-color: #f5f5f5;
+	background-color: #f5f5f5; /*white smoke*/
 }
 
 .staticText {
@@ -8,3 +8,15 @@ body {
 	clear: both;
 	padding: 50px;
 }
+
+a:link {
+	color: #062a78; /*catalina blue*/
+}
+
+a:hover {
+	color: #318ce7; /*bleu de france*/
+}	
+
+a:visited {
+	color: #062a78; /*catalina blue*/
+}	
