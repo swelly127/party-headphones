@@ -16,7 +16,7 @@
 
 
 		<div id="div1">
-			<h1>Hearing amplification for those who need it most.</h1>
+			<h1>Amplified hearing for those who need it, pure bliss for those who don't.</h1>
 			<img src="img/elderly.jpg" alt="A group of happy customers">
 		</div>
 
@@ -32,28 +32,28 @@
 		</div>
 
 		<div id="div3">
+			<h1>Benefits</h1>
 			<h2>Allow your seniors to turn up the volume as they like,
 			without bothering those around them.</h2>
 			<div id="features">
 				<div class="eachFeature">
-					<h3>Improve Engagement</h3>
-					<p>Increase enthusiasm adn improve participation for group activities.
-					Don't sit back while your residents avoid events because
-					they can't hear well.</p>
+					<h3>Audio Freedom</h3>
+					<p>Welcome to a world of audio freedom. For your seniors,
+					your staff, and yourself, wireless headphone systems expand the
+					 possibilities for events and activities.</p>
 				</div>
 
 				<div class="eachFeature">
-					<h3>Volume Control</h3>
+					<h3>Personal Control</h3>
 					<p>Each wireless headphone offers personal volume control.
 					Those with hearing impairment can then turn up the volume,
 					without blasting the sound for those around them.</p>
 				</div>
 
 				<div class="eachFeature">
-					<h3>Audio Freedom</h3>
-					<p>Welcome to a world of audio freedom. For your seniors,
-					your staff, and yourself, wireless headphone systems expand the
-					 possibilities for events and activities.</p>
+					<h3>Improve Engagement</h3>
+					<p>Do you ever see residents missing events because they can't hear
+					 well? Increase enthusiasm and improve participation for group activities.</p>
 				</div>
 			</div>
 		</div>
