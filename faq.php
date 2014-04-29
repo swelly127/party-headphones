@@ -33,8 +33,8 @@
 				</ul>
 				<div class="tab-content" id="multitabs_1642117843_insideContent">
 					<div class="tab-pane fade" id="multitabs_1642117843_inside0">
-						<h4 id="question">HOW DO I RENT?</h4>
-						<table width="100%" border="0" cellspacing="5" cellpadding="5">
+						<h4 class="question">HOW DO I RENT?</h4>
+						<table style="width:100%; border:0; cellspacing:5; cellpadding:5;">
 						<tbody>
 							<tr>
 							<td style="width: 35px;"><img alt="" src="http://partyheadphones.com/wp-content/themes/phpv2/images/1.png"></td>
@@ -54,13 +54,13 @@
 							</tr>
 						</tbody>
 						</table>
-						<h4 id="question">How much does a rental cost?</h4>
+						<h4 class="question">How much does a rental cost?</h4>
 						<p>For pricing information and event planning tips, download our free <a href="http://partyheadphones.com/ultimate-guide-silent-disco">Ultimate Guide to Silent Disco</a>.</p>
-						<h4 id="question">How long does the rental last?</h4>
+						<h4 class="question">How long does the rental last?</h4>
 						<p>Our standard quote covers a single day event. For longer events, we offer consecutive-day pricing at an additional $3 per headphone for each additional day. The headphones arrive fully charged, with approximately 8 hours of battery life, and we include specialty 24-port chargers are included for multiple-day events.</p>
-						<h4 id="question">How do I pay?</h4>
+						<h4 class="question">How do I pay?</h4>
 						<p>We require a 50% deposit to secure a reservation. The remainder is required 7 days before the event date, prior to the equipment shipment. We accept PayPal and all major credit cards.</p>
-						<h4 id="question">What is your cancellation policy?</h4>
+						<h4 class="question">What is your cancellation policy?</h4>
 						<p>Cancellations must be submitted at least three days before the scheduled shipping date to avoid a 75% charge.<br>
 						</p>
 					</div>
