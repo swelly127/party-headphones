@@ -1,17 +1,34 @@
+body {
+	font-family: "comic sans ms";
+}
+
 #div1 {
-	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+#div1 img {
+	/*margin-bottom: 10%;
+	background: url(../img/elderly.jpg);
+	background-repeat: no-repeat;
+  	background-position: right;*/
+  	float: right;
+  	margin-right: 5%;
+  	margin-bottom: 5%;  	 
 }
 
 #div1 h1 {
-	width: 50%;
+	width: 30%;
 	margin-left: 15%;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 	margin-bottom: 20px;
+	float: left;
 }
 
 #div2 {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	clear: both;
+	background-color: #318ce7;
 }
 
 #div2 h3 {
@@ -33,6 +50,7 @@
 #div3 {
 	margin-bottom: 10%;
 	margin-top: 10%;
+	/*background-color: #39a78e;*/
 }
 
 #div3 h2 {
@@ -60,33 +78,54 @@
 	text-align: center;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	background-color: #318ce7;
 }
 
 #div4 h1 {
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 20px;
 }
 
+#div4inner {
+	width: 80%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
 #steps {
-	margin-left: 10%;
+	margin-left: 15%;
 	padding-bottom: 30px;
 }
 
-#eachStep {
+.eachStep {
 	width: 40%;
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 10%;
 }
 
 #quote {
 	font-style: italic;
 	clear: both;
-	width: 70%;
+	width: 90%;
 	margin-right: 10%;
 	margin-bottom: 10%;
 	margin-top: 20px;
+}
+
+#quote h3 {
+
 }
 
 #quote p {

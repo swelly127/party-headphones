@@ -17,6 +17,7 @@
 
 		<div id="div1">
 			<h1>Hearing amplification for those who need it most.</h1>
+			<img src="img/elderly.jpg" alt="A group of happy customers">
 		</div>
 
 		<div id="div2">
@@ -58,14 +59,29 @@
 		</div>
 
 		<div id="div4">
+		<div id="div4inner">
 			<h1>Simple to setup, easy to use</h1>
 			<div id="steps">
 				<div class="eachStep">
 					<h2>Step 1: Connect audio to transmitter</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
 				</div>
 
 				<div class="eachStep">
 					<h2>Step 2: Power on the headphones</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
 				</div>
 			</div>
 
@@ -75,6 +91,7 @@
 				<p>Jim S, AV Committee Chair<br>
 				Kendal at Ithaca Retirement Community</p>
 			</div>
+		</div>
 		</div>
 
 		<div id="div5">
