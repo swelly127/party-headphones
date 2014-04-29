@@ -40,7 +40,7 @@
 					<form name="10pack" method="post" action="">
 						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 10-Pack</h3>
 						<img class="img" src="img/headphones.jpg" alt="10 pack" style="height:100px; width:100px;"><br>
-						<div id="button">
+						<div class="button">
 							<button class="button" type="button" id="button10">See More +</button>
 						</div>
 						<span id="10packInfo"></span>
@@ -51,7 +51,7 @@
 					<form name="20pack" method="post" action="">
 						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 20-pack</h3>
 						<img class="img" src="img/headphones.jpg" alt="20 pack" height="100px" width="100px"><br>
-						<div id="button">
+						<div class="button">
 							<button class="button" type="button" id="button20">See More +</button>
 						</div>
 
