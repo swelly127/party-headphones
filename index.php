@@ -20,14 +20,13 @@
 
 		<div id="div2">
 			<h3>Trusted By:</h3>
-				<ul>
-					<li>Viacom</li>
-					<li>Nestle</li>
-					<li>Century 21</li>
-					<li>DTS</li>
-					<li>Cornell</li>
-					<li>UPENN</div></li>
-				</ul>
+			<p style="text-align:center;">
+				<img src="img/VIACOM.png" alt="Viacom" class="trust-logo">
+				<img src="img/NESTLE.png" alt="Nestle" class="trust-logo">
+				<img src="img/CENTURY.jpg" alt="Century 21" class="trust-logo">
+				<img src="img/DTS.png" alt="DTS" class="trust-logo">
+				<img src="img/CORNELL.jpg" alt="Cornell" class="trust-logo">
+			</p>
 		</div>
 
 		<div id="div3">
