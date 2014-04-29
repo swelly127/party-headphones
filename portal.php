@@ -24,20 +24,20 @@
   } else {
   	// get current press array from DB (all) store in $press variable
   	// get current testimonial array from DB (all) store in $testimonial variable
- 	if (isset($POST('add_test'))) {
+ 	  if (isset($POST['add_test'])) {
   		// add a testimonial
   	}
-	if (isset($POST('add_press'))) {
+	  if (isset($POST['add_press'])) {
   		// add a press link
   	}
- 	if (isset($POST('del_test'))) {
+ 	  if (isset($POST['del_test'])) {
   		// delete a testimonial
   	}
-	if (isset($POST('del_press'))) {
+	 if (isset($POST['del_press'])) {
   		// delete a press link
   	}
 
-  	if (isset($POST('search'))) {
+  	if (isset($POST['search'])) {
   		// add found orders to array variable called $found
   	}
   }

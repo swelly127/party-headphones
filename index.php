@@ -35,21 +35,21 @@
 			<h2>Allow your seniors to turn up the volume as they like,
 			without bothering those around them.</h2>
 			<div id="features">
-				<div id="eachFeature">
+				<div class="eachFeature">
 					<h3>Improve Engagement</h3>
 					<p>Increase enthusiasm adn improve participation for group activities.
 					Don't sit back while your residents avoid events because
 					they can't hear well.</p>
 				</div>
 
-				<div id="eachFeature">
+				<div class="eachFeature">
 					<h3>Volume Control</h3>
 					<p>Each wireless headphone offers personal volume control.
 					Those with hearing impairment can then turn up the volume,
 					without blasting the sound for those around them.</p>
 				</div>
 
-				<div id="eachFeature">
+				<div class="eachFeature">
 					<h3>Audio Freedom</h3>
 					<p>Welcome to a world of audio freedom. For your seniors,
 					your staff, and yourself, wireless headphone systems expand the

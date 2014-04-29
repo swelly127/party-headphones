@@ -13,7 +13,7 @@ body {
   	background-position: right;*/
   	float: right;
   	margin-right: 5%;
-  	margin-bottom: 5%;  	 
+  	margin-bottom: 5%;
 }
 
 #div1 h1 {
@@ -62,7 +62,7 @@ body {
 	margin-top: 10px;
 }
 
-#eachFeature {
+.eachFeature {
 	width: 25%;
 	float: left;
 	padding: 2%;
@@ -95,7 +95,7 @@ body {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	padding-top: 10px;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 }
 
 #steps {

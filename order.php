@@ -36,10 +36,10 @@
 			</div>
 
 			<div id="orderOptions">
-				<div id="eachOption">
+				<div class="eachOption">
 					<form name="10pack" method="post" action="">
 						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 10-Pack</h3>
-						<img class="img" src="img/headphones.jpg" alt="10 pack" height="100px" width="100px"><br>
+						<img class="img" src="img/headphones.jpg" alt="10 pack" style="height:100px; width:100px;"><br>
 						<div id="button">
 							<button class="button" type="button" id="button10">See More +</button>
 						</div>
@@ -47,7 +47,7 @@
 					</form>
 				</div>
 
-				<div id="eachOption">
+				<div class="eachOption">
 					<form name="20pack" method="post" action="">
 						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 20-pack</h3>
 						<img class="img" src="img/headphones.jpg" alt="20 pack" height="100px" width="100px"><br>
@@ -77,34 +77,34 @@
 			<div id="planOptions">
 				<div class="eachPlan">
 					<form name="basicPlan" method="post" action="">
-						<div id="title">
+						<div class="title">
 							<h3><input type="radio" name="choosePlan">Basic</h3>
 						</div>
-						<div id="price">
+						<div class="price">
 							<h2 class="dollars">$0</h2>
 							<p>Per month</p>
 						</div>
-						<div id="details">
+						<div class="details">
 							<ul>
 								<li>One year limited warranty on all product components</li>
 							</ul>
 						</div>
 					</form>
-						<div id="linkToLegal">
+						<div class="linkToLegal">
 							<a href="legal.html/#basicLegal" target="_blank">Basic Details</a>
 						</div>
 				</div>
 
 				<div class="eachPlan">
 					<form name="premiumPlan" method="post" action="">
-						<div id="title">
+						<div class="title">
 							<h3><input type="radio" name="choosePlan">Premium</h3>
 						</div>
-						<div id="price">
+						<div class="price">
 							<h2 class="dollars">$35</h2>
 							<p>Per month</p>
 						</div>
-						<div id="details">
+						<div class="details">
 							<ul>
 								<li>Limited Warranty on all components for as long as subscription is maintained</li>
 								<li>New earpads every 3 months</li>
@@ -112,21 +112,21 @@
 							</ul>
 						</div>
 					</form>
-						<div id="linkToLegal">
-							<a href="legal.php/#premiumLegal" target="_blank">Premium details</a>
+						<div class="linkToLegal">
+							<a href="legal.php#premiumLegal" target="_blank">Premium details</a>
 						</div>
 				</div>
 
 				<div class="eachPlan">
 					<form name="freedomPlan" method="post" action="">
-						<div id="title">
+						<div class="title">
 							<h3><input type="radio" name="choosePlan">Freedom</h3>
 						</div>
-						<div id="price">
+						<div class="price">
 							<h2 class="dollars">$55</h2>
 							<p>Per month</p>
 						</div>
-						<div id="details">
+						<div class="details">
 							<ul>
 								<li>Full warranty and next-day replacement policy on all components</li>
 								<li>New earpads every month</li>
@@ -134,21 +134,21 @@
 							</ul>
 						</div>
 					</form>
-						<div id="linkToLegal">
-							<a href="legal.php/#freedomLegal" target="_blank">Freedom details</a>
+						<div class="linkToLegal">
+							<a href="legal.php#freedomLegal" target="_blank">Freedom details</a>
 						</div>
 				</div>
 
 				<div class="eachPlan">
 					<form name="pureBlissPlan" method="post" action="">
-						<div id="title">
+						<div class="title">
 							<h3><input type="radio" name="choosePlan">Pure Bliss</h3>
 						</div>
-						<div id="price">
+						<div class="price">
 							<h2 class="dollars">$75</h2>
 							<p>Per month</p>
 						</div>
-						<div id="details">
+						<div class="details">
 							<ul>
 								<li>Full warranty and next-day replacement policy on all components</li>
 								<li>New earpads every month</li>
@@ -157,7 +157,7 @@
 							</ul>
 						</div>
 					</form>
-						<div id="linkToLegal">
+						<div class="linkToLegal">
 							<a href="legal.php/#pureBlissLegal" target="_blank">Pure Bliss details</a>
 						</div>
 				</div>
