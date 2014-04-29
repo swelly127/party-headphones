@@ -7,6 +7,18 @@
 	padding: 20px;
 }
 
+#navbar a:link {
+	color: black;
+}
+
+#navbar a:hover {
+	color: #0047ab;
+}
+
+#navbar a:visited {
+	color: black;
+}
+
 body {
 	font-family: "comic sans ms";
 }
@@ -15,7 +27,7 @@ body {
 	position: fixed;
 	top:0px;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #318ce7;
 	font-size: 150%;
 	margin-bottom: 0px;
 	height: 70px;
@@ -118,11 +130,11 @@ body {
 	border-bottom: 1px solid black;
 	clear: both;
 	margin-top: 10%;
-	background-color: #39a78e;
+	/*background-color: #39a78e;*/
 }
 
 .submit {
-	background-color: #39a78e;
+	/*background-color: #39a78e;*/
 	-webkit-border-top-left-radius:0px;
 	-moz-border-radius-topleft:0px;
 	border-top-left-radius:0px;
@@ -152,7 +164,7 @@ body {
 }
 
 .submit:hover {
-	background-color: #a0d6b4;
+	background-color: #4a646c;
 }
 
 .submit:active {
@@ -169,10 +181,23 @@ body {
 	padding-right: 20px;
 }
 
+#footer a:link {
+	color: black;
+}
+
+#footer a:hover {
+	color: #0047ab;
+}
+
+#footer a:visited {
+	color: black;
+}
+
+
 #footer {
 	border-top: solid 3px black;
 	position: absolute;
-	background-color: lightgrey;
+	background-color: #318ce7;
 	width: 100%;
 	padding: 3px;
 	clear: both;
