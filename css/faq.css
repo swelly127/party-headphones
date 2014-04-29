@@ -1,21 +1,10 @@
-*{margin:0;padding:0;}
-body{font-size:12px;line-height:14px;text-align:left;font-weight:normal;vertical-align: baseline;/*position:relative;*/float:left;width:100%;-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;word-wrap:break-word;-ms-word-wrap: break-word;}
-html,body { -webkit-text-size-adjust:none; }
-td img{border:0;vertical-align:top;margin:0 0 15px;max-width:100%;height:auto;}
-a{font-size:14px;text-decoration:none;cursor:pointer;background:transparent;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
-a:hover{text-decoration:none;color:#BE0404;-webkit-tap-highlight-color: transparent;-moz-tap-highlight-color: transparent;-o-tap-highlight-color: transparent}
-a.button:hover {text-decoration:none;}
-p {margin:0 0 15px;display:block;}
-strong {font-weight:bold;}
-em {font-style:italic;}
-pre {overflow:hidden;}
-ins {text-decoration:none;}
+#faqText td img{border:0;vertical-align:top;margin:0 0 15px;max-width:100%;height:auto;}
+#faqText a{font-size:14px;text-decoration:none;cursor:pointer;background:transparent;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+#faqText a:hover{text-decoration:none;color:#BE0404;-webkit-tap-highlight-color: transparent;-moz-tap-highlight-color: transparent;-o-tap-highlight-color: transparent}
+#faqText a.button:hover {text-decoration:none;}
+#faqText p {margin:0 0 15px;display:block;}
+#faqText strong {font-weight:bold;}
+#faqText em {font-style:italic;}
+#faqText pre {overflow:hidden;}
+#faqText ins {text-decoration:none;}
 
-/* Heading */
-h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0 0 7px;letter-spacing:-1px;}
-h1{font-size:40px;line-height:46px;text-transform:uppercase;margin:0 0 14px;}
-h2{font-size:34px;line-height:40px;text-transform:uppercase;margin:0 0 17px;}
-h3{font-size:28px;line-height:34px;margin:0 0 19px;}
-h4{font-size:22px;line-height:26px;text-transform:uppercase;margin:0 0 22px;}
-h5{font-size:18px;line-height:24px;text-transform:uppercase;margin:0 0 22px;}
-h6{font-size:14px;line-height:16px;margin:0 0 22px;letter-spacing:0;}
