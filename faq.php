@@ -2,8 +2,6 @@
   require_once 'config.php';
   include 'session.php';
   $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-
-    // get current faq array and store in variable $FAQ
 ?>
 
 
@@ -14,6 +12,7 @@
 		<title>FAQ</title>
 		<link rel="stylesheet" type="text/css" href="css/static.css">
 		<link rel="stylesheet" type="text/css" href="css/faq.css">
+		<link rel="stylesheet" type="text/css" href="css/navigation.css">
 		<script src="http://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
 	</head>

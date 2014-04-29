@@ -13,6 +13,7 @@
 		<meta charset="utf-8">
 		<title>Order Now!</title>
 		<link rel="stylesheet" type="text/css" href="css/order.css">
+		<link rel="stylesheet" type="text/css" href="css/navigation.css">
 	</head>
 
 	<body>

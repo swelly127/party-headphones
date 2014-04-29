@@ -5,6 +5,7 @@
 		<title>Thank you!</title>
 		<link rel="stylesheet" type="text/css" href="css/static.css">
 		<link rel="stylesheet" type="text/css" href="css/thanks.css">
+		<link rel="stylesheet" type="text/css" href="css/navigation.css">
 	</head>
 
 	<body>
