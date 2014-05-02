@@ -17,7 +17,7 @@
 
 		<div id="div1">
 			<h1>Amplified hearing for those who need it, pure bliss for those who don't.</h1>
-			<img src="img/elderly.jpg" alt="A group of happy customers">
+			<img src="img/headphones.jpg" alt="headphones">
 		</div>
 
 		<div id="div2">

@@ -50,7 +50,7 @@
 				<div class="eachOption">
 					<form name="20pack" method="post" action="">
 						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 20-pack</h3>
-						<img class="img" src="img/headphones.jpg" alt="20 pack" style="height:100px;width:100px;"><br>
+						<img class="img" src="img/10headphones.jpg" alt="20 pack" style="height:100px;width:100px;"><br>
 						<div class="optionButton">
 							<button class="button" type="button" id="button20">See More +</button>
 						</div>
