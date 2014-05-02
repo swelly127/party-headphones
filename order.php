@@ -1,4 +1,4 @@
-<?php
+?php
   require_once 'config.php';
   include 'session.php';
   $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -80,13 +80,16 @@
 						<div class="title">
 							<h3><input type="radio" name="choosePlan">Basic</h3>
 						</div>
+						<div class="description">
+							<p>One year limited warranty.</p>
+						</div>	
 						<div class="price">
 							<h2 class="dollars">$0</h2>
 							<p>Per month</p>
 						</div>
 						<div class="details">
 							<ul>
-								<li>One year limited warranty on all product components</li>
+								<li>One year limited warranty on all product components.</li>
 							</ul>
 						</div>
 					</form>
@@ -95,20 +98,28 @@
 						</div>
 				</div>
 
+				<!--<div id="popular">
+					<p>Most popular!</p>
+				</div>-->
+
 				<div class="eachPlan">
 					<form name="premiumPlan" method="post" action="">
 						<div class="title">
 							<h3><input type="radio" name="choosePlan">Premium</h3>
 						</div>
+						<div class="description">
+							<p>Sanitation and maintenence</p>
+						</div>	
 						<div class="price">
 							<h2 class="dollars">$35</h2>
 							<p>Per month</p>
 						</div>
 						<div class="details">
 							<ul>
-								<li>Limited Warranty on all components for as long as subscription is maintained</li>
+								<li>Full warranty on all components as long as subscription lasts.</li>
+								<li>Full system upgrades every 12 months.</li>
 								<li>New earpads every 3 months</li>
-								<li>10% discount on accessories and add-ons</li>
+								<li>10% discount on accessories and add-ons.</li>
 							</ul>
 						</div>
 					</form>
@@ -122,15 +133,19 @@
 						<div class="title">
 							<h3><input type="radio" name="choosePlan">Freedom</h3>
 						</div>
+						<div class="description">
+							<p>Full warranty without boundaries</p>
+						</div>	
 						<div class="price">
-							<h2 class="dollars">$55</h2>
+							<h2 class="dollars">$75</h2>
 							<p>Per month</p>
 						</div>
 						<div class="details">
 							<ul>
-								<li>Full warranty and next-day replacement policy on all components</li>
-								<li>New earpads every month</li>
-								<li>25% discount on accessories and add-ons</li>
+								<li>Full warranty on all components. If you break it, we'll replace it.</li>
+								<li>New earpads every month.</li>
+								<li>Full system upgrades every 12 months.</li>
+								<li>10% discount on accessories and add-ons.</li>
 							</ul>
 						</div>
 					</form>
@@ -139,28 +154,7 @@
 						</div>
 				</div>
 
-				<div class="eachPlan">
-					<form name="pureBlissPlan" method="post" action="">
-						<div class="title">
-							<h3><input type="radio" name="choosePlan">Pure Bliss</h3>
-						</div>
-						<div class="price">
-							<h2 class="dollars">$75</h2>
-							<p>Per month</p>
-						</div>
-						<div class="details">
-							<ul>
-								<li>Full warranty and next-day replacement policy on all components</li>
-								<li>New earpads every month</li>
-								<li>50% discount on accessories and add-ons</li>
-								<li>Priority customer support</li>
-							</ul>
-						</div>
-					</form>
-						<div class="linkToLegal">
-							<a href="legal.php/#pureBlissLegal" target="_blank">Pure Bliss details</a>
-						</div>
-				</div>
+				
 				</div>
 			</div>
 
