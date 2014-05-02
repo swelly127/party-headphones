@@ -17,8 +17,18 @@
 
 		<div id="div1">
 			<h1>Amplified hearing for those who need it, pure bliss for those who don't.</h1>
-			<!--<img src="img/elderly.jpg" alt="A group of happy customers">-->
 			<img src="img/headphones.jpg" alt="headphones">
+		</div>
+
+		<div id="div2">
+			<h3>Trusted By:</h3>
+			<p style="text-align:center;">
+				<img src="img/VIACOM.png" alt="Viacom" class="trust-logo">
+				<img src="img/NESTLE.png" alt="Nestle" class="trust-logo">
+				<img src="img/CENTURY.jpg" alt="Century 21" class="trust-logo">
+				<img src="img/DTS.png" alt="DTS" class="trust-logo">
+				<img src="img/CORNELL.jpg" alt="Cornell" class="trust-logo">
+			</p>
 		</div>
 
 		<div id="div3">
@@ -47,17 +57,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="kendalTestimonial">
-			<div class="praise">
-				<p>"In the 7 years I've been going to this meeting, 
-				it's the first time I've been able to hear everything."</p>
-			</div>
-			
-			<div class="praise">
-				<p>"I'm just glad we don't have to repeat ourselves anymore."</p>
-			</div>	
-		</div>	
 
 		<div id="div4">
 		<div id="div4inner">
@@ -96,26 +95,22 @@
 		</div>
 
 		<div id="div5">
+			<div id="paragraph">
+				<h3>Audiarchy RF wireless headphone systems offer freedom for listeners
+				to choose their own volume. Plug any audio source into a transmitter,
+				which then broadcasts that signal to all headphones within 300 feet.</h3>
+			</div>
 			<div id="questions">
 				<p>Questions? Contact us now for a FREE consultation!<br>
 				<strong>607.216.1082</strong></p>
 			</div>
 		</div>
-
-		<div id="div2">
-			<h3>Our Clients:</h3>
-			<p style="text-align:center;">
-				<img src="img/VIACOM.png" alt="Viacom" class="trust-logo">
-				<img src="img/NESTLE.png" alt="Nestle" class="trust-logo">
-				<img src="img/CENTURY.jpg" alt="Century 21" class="trust-logo">
-				<img src="img/DTS.png" alt="DTS" class="trust-logo">
-				<img src="img/CORNELL.jpg" alt="Cornell" class="trust-logo">
-			</p>
-		</div>
-
 		<?php
 			require 'footer.php'
 		?>
+
+
+
 
 	</body>
 </html>

@@ -6,7 +6,7 @@
 
 <div id="navigation">
 	<div id="logo">
-		<a href="index.php"><img class="logo" src="img/logo.png" alt="Audiarchy Logo" style="height:70px;"></a>
+		<a href="index.php"><img class="logo" src="img/logo.pbhng" alt="Audiarchy Logo" style="height:70px;"></a>
 	</div>
 
 	<div id="navbar">

@@ -1,5 +1,6 @@
 body {
 	font-family: "comic sans ms";
+	margin:0px;
 }
 
 #navigation {
@@ -29,8 +30,8 @@ body {
 	vertical-align: middle;
 }
 
-#navigation li a { 
-	text-decoration: none; 
+#navigation li a {
+	text-decoration: none;
 }
 
 #navbar a:link {
