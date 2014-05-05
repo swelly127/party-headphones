@@ -1,4 +1,4 @@
-?php
+<?php
   require_once 'config.php';
   include 'session.php';
   $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -13,6 +13,8 @@
 		<meta charset="utf-8">
 		<title>Order Now!</title>
 		<link rel="stylesheet" type="text/css" href="css/order.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/order.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/navigation.css">
 	</head>
 
@@ -38,24 +40,38 @@
 			<div id="orderOptions">
 				<div class="eachOption">
 					<form name="10pack" method="post" action="">
-						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 10-Pack</h3>
+						<h3 class="optionTitle"><input type="radio" name="choose10">Audiarchy 10-Pack</h3>
 						<img class="img" src="img/headphones.jpg" alt="10 pack" style="height:100px; width:100px;"><br>
 						<div class="optionButton">
 							<button class="button" type="button" id="button10">See More +</button>
 						</div>
-						<span id="10packInfo"></span>
+						<div id="packInfo10" class="hide">
+						Package includes... <br><br>
+						(10) Audiarchy RF Wireless Headphones<br>
+						(1) Headphone Charger<br>
+						(2) Audiarchy PRO Rechargeable RF Transmitter<br>
+						(1) RCA and auxillary cable pack connects transmitter to laptops, iPods, TVs, DVD players and mixing boards<br>
+						(1) Protective Travel Case
+						</div>
 					</form>
 				</div>
 
 				<div class="eachOption">
 					<form name="20pack" method="post" action="">
-						<h3 class="optionTitle"><input type="radio" name="choose">Audiarchy 20-pack</h3>
+						<h3 class="optionTitle"><input type="radio" name="choose20">Audiarchy 20-pack</h3>
 						<img class="img" src="img/10headphones.jpg" alt="20 pack" style="height:100px;width:100px;"><br>
 						<div class="optionButton">
 							<button class="button" type="button" id="button20">See More +</button>
 						</div>
 
-						<span id="20packInfo"></span>
+						<div id="packInfo20" class="hide">
+						Package includes... <br><br>
+						(20) Audiarchy RF Wireless Headphones<br>
+						(1) Headphone Charger<br>
+						(2) Audiarchy PRO Rechargeable RF Transmitter<br>
+						(1) RCA and auxillary cable pack connects transmitter to laptops, iPods, TVs, DVD players and mixing boards<br>
+						(1) PureFreedom10 Protective Travel Case
+						</div>
 					</form>
 				</div>
 			</div>
@@ -82,7 +98,7 @@
 						</div>
 						<div class="description">
 							<p>One year limited warranty.</p>
-						</div>	
+						</div>
 						<div class="price">
 							<h2 class="dollars">$0</h2>
 							<p>Per month</p>
@@ -109,7 +125,7 @@
 						</div>
 						<div class="description">
 							<p>Sanitation and maintenence</p>
-						</div>	
+						</div>
 						<div class="price">
 							<h2 class="dollars">$35</h2>
 							<p>Per month</p>
@@ -135,7 +151,7 @@
 						</div>
 						<div class="description">
 							<p>Full warranty without boundaries</p>
-						</div>	
+						</div>
 						<div class="price">
 							<h2 class="dollars">$75</h2>
 							<p>Per month</p>
@@ -154,7 +170,7 @@
 						</div>
 				</div>
 
-				
+
 				</div>
 			</div>
 
@@ -172,7 +188,7 @@
 			</div>
 
 			<div id="customerInfo">
-				<form name="customerInfo" method="post" action="">
+				<form name="customerInfo" method="post" action="order.php">
 					<input type="text" name="firstName" placeholder="First Name"><br><br>
 					<input type="text" name="lastName" placeholder="Last Name"><br><br>
 					<input type="text" name="title" placeholder="Title"><br><br>

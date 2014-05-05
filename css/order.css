@@ -56,8 +56,19 @@ body {
 	margin-left: 30%;
 }
 
+#packInfo10, #packInfo20 {
+	font-style: oblique;
+	font-size: 12px;
+	padding: 20px;
+	margin-top: -20px;
+}
+
 .optionTitle {
-	padding-left: 20px;
+	text-align: center;
+}
+
+.hide {
+	display: none;
 }
 
 .description {
