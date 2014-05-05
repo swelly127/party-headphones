@@ -189,14 +189,13 @@
 
 			<div id="customerInfo">
 				<form name="customerInfo" method="post" action="order.php">
-					<input type="text" name="firstName" placeholder="First Name"><br><br>
-					<input type="text" name="lastName" placeholder="Last Name"><br><br>
-					<input type="text" name="title" placeholder="Title"><br><br>
-					<input type="text" name="company" placeholder="Company"><br><br>
-					<input type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
-				 	title="Phone Number (Format: (999)999-9999)" placeholder="Phone"><br><br>
-					<input type="email" name="email" placeholder="Email"><br><br>
-					<input class="submit" type="submit" name="submit" value="Submit">
+					<input type="text" required name="firstName" pattern="[a-zA-Z. ]+" title=" Letters only" placeholder="First Name"><br><br>
+					<input type="text" required name="lastName" pattern="[A-Za-z. ]+" title="Letters only" placeholder="Last Name"><br><br>
+					<input type="text" name="title" pattern="[A-Za-z. ]+" title="Letters only" placeholder="Title"><br><br>
+					<input type="text" name="company" pattern="[A-Za-z. ]+" title="Letters only" placeholder="Company"><br><br>
+					<input type="tel" placeholder="Phone"><br><br>
+					<input type="email" required name="email" placeholder="Email"><br><br>
+					<input class="submit" type="submit" name="submit" value="submit">
 				</form>
 			</div>
 		</div>
